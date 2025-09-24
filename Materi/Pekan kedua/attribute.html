@@ -1,0 +1,105 @@
+<!-- shortcut vscode html:5 -->
+<!-- membuat struktur dasar html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn HTML Attributes</title>
+    <style>
+      #page-title {
+        color: magenta
+      }
+      #box1{
+        background-color: blue
+      }
+      #box-title{
+        color: aqua
+      }
+
+      .box-class {
+        background-color: chartreuse;
+      }
+
+      #box1 {
+        background-color: blueviolet;
+        width: 300px;
+        height: 200px;
+        margin: 40px;
+        padding: 20px;
+        border: 8px solid red;
+      }
+
+      #box1 h2 {
+        text-align: center;
+        font-size: 38px;
+      }
+
+      #box1 p {
+        color: white;
+      }
+
+      #box1 p b {
+        font-size: 90px 
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 3 metode pewarnaan di css: -->
+    <!-- 1. color name: pink, purple -->
+    <!-- 2. hex (heksadesimal): #000000 -->
+    <!-- 3. rgb (red, green, blue):  rgb(0,0,0)-->
+    <h1 id="page-title">HTML Attributes</h1>
+    <hr />
+    <!-- attribute target blank: membuka link di tab baru -->
+    <h2 style="color: #2b2b97">Link Target</h2>
+    <a style="color: rgb(44, 172, 48)" href="https://google.com" target="_blank"
+      >Klik ke Google</a
+    >
+
+    <!-- width: lebar gambar -->
+    <!-- height: tinggi gambar -->
+    <!-- alt (alternative text): menggantikan gambar sebagai teks saat gagal di muat -->
+    <h2>Image Size (width x height)</h2>
+    <img
+      width="300"
+      height="100"
+      alt="Bendara Merah Putih x One Piece"
+      src="https://www.ewarta.id/wp-content/uploads/2025/08/images-2025-08-05T113834.653.jpeg"
+    />
+
+    <h2>List Type</h2>
+    <ol type="a">
+      <li>Bilal</li>
+      <li>Imam</li>
+      <li>Yunus</li>
+    </ol>
+    <ul type="square">
+      <li>Mangga</li>
+      <li>Jeruk</li>
+      <li>Semangka</li>
+    </ul>
+
+    <!-- div (division): menggabungkan beberap elemen/tag dalam 1 wadah  -->
+    <div id="box1">
+      <h2>Artikel Baru</h2>
+      <p>ini artikel baru bla bla bla....</p>
+    </div>
+    <div class="box-class">
+      <h2>Artikel Baru</h2>
+      <p>ini artikel baru bla bla bla....</p>
+    </div>
+    <div class="box-class">
+      <h1>hao</h1>
+    </div>
+    <!-- width: atur lebar elemen -->
+    <div
+    >
+      <h2>Artikel Lama</h2>
+      <p>
+        ini artikel lama bang, boleh di
+        <b>baca</b> boleh kagak....
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML 5 TABLE</h1>
+    <style>
+      #table-basic {
+        width: 60%;
+        border-collapse: collapse;
+      }
+      #table-basic td {
+        padding: 10px;
+        font-size: 10px;
+      }
+      #table-basic .bg-blue {
+        background-color: blue;
+        color: aliceblue;
+      }
+    </style>
+    <hr />
+    <h3>table dasar</h3>
+    <!----<tr> : untuk membuat baris-->
+    <!---- <td> : untuk membuat data/kolom-->
+    <table border="1" id="table-basic">
+      <tr class="bg-blue">
+        <td>No</td>
+        <td>Nama</td>
+        <td>Asal</td>
+      </tr>
+      <!--- shortcut: tr>td*3-->
+      <tr>
+        <td>1.</td>
+        <td>Elaina</td>
+        <td>Fantasyi</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Siesta</td>
+        <td>Fantasyi</td>
+      </tr>
+    </table>
+
+    <h3>table Standard HTML 5</h3>
+    <!--- shourtcut-->
+    <!----->
+    <table border="1" style="width: 50%">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Tanggal</th>
+          <th>Nama barang</th>
+          <th>nama barang</th>
+        </tr>
+      </thead>
+      <tbody>
+        <td rowspan="3">1.</td>
+        <td>23/09/3030</td>
+        <!---- rowspan: menggabungkan baris ke bawah-->
+        <td>Elaina</td>
+        <td>Miku</td>
+      </tbody>
+      <tfoto>
+        <td>2.</td>
+        <td>24/09/3030</td>
+        <td>Elaina</td>
+        <td>Miku</td>
+        <tr>
+          <!-- <td></td>
+        <td></td> -->
+          <td colspan="3"><b>Total pengeluaran</b></td>
+          <td><b>rp.9999909999990.99999090909090909.</b></td>
+        </tr>
+      </tfoto>
+    </table>
+  </body>
+</html>

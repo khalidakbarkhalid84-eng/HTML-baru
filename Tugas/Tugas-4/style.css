@@ -1,0 +1,75 @@
+/* ====== Style Umum ====== */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+hr {
+  width: 80%;
+  margin: 10px auto;
+}
+
+/* ====== Box ====== */
+.box {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.section-title {
+  margin-bottom: 15px;
+  color: #34495e;
+  text-align: center;
+}
+
+/* ====== Gambar ====== */
+.logo {
+  width: 200px; /* ukuran logo */
+  display: block; /* biar bisa dimargin */
+  margin: 0 auto; /* ini yang bikin ke tengah */
+}
+.photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #3498db;
+}
+
+/* ====== Tombol Link ====== */
+a.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+a.btn:hover {
+  background: #2980b9;
+}
